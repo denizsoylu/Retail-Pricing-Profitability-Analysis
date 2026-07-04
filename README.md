@@ -1,3 +1,5 @@
+<img width="871" height="542" alt="image" src="https://github.com/user-attachments/assets/7206c337-01de-44cc-b862-7beecd398482" />
+
 # E-Ticaret Fiyatlandırma ve Kârlılık Analizi
 
 Bu projede amacım sadece güzel görünen bir grafik çizmek değil; bir e-ticaret şirketinin fiyatlandırma stratejisindeki kör noktaları bulmaktı.
