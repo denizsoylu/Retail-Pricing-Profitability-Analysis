@@ -1,15 +1,20 @@
-<img width="871" height="542" alt="image" src="https://github.com/user-attachments/assets/7206c337-01de-44cc-b862-7beecd398482" />
+# 📊 Data Science & Business Intelligence Portfolio
 
-# E-Ticaret Fiyatlandırma ve Kârlılık Analizi
+Bu depo (repository), veri analitiği, iş zekası, makine öğrenmesi ve veri mühendisliği alanlarındaki ticari problem çözme yetkinliklerimi sergilemek amacıyla uçtan uca tasarlanmış projeleri içermektedir.
 
-Bu projede amacım sadece güzel görünen bir grafik çizmek değil; bir e-ticaret şirketinin fiyatlandırma stratejisindeki kör noktaları bulmaktı.
+Amacım sadece kod yazmak veya grafik çizmek değil; ham veriyi şirketlerin büyüme, kârlılık ve operasyonel verimlilik hedeflerine hizmet eden stratejik ürünlere dönüştürmektir.
 
-Şirketlerde genelde "Çok satıyoruz ve ciromuz yüksek, demek ki kârlıyız" mantığı vardır. Peki ya rakiplerimiz aynı ürünü çok daha pahalıya satabiliyorsa ve biz fiyatımızı gereksiz yere düşük tutarak masada para bırakıyorsak? İşte bu projede bu görünmez zararı (kaçırılan kazanımı) ortaya çıkardım.
+## 📁 Portföy Kataloğu
 
-### Bu Projede Adım Adım Neler Yaptım?
+### [01. Retail Pricing Profitability Analysis](./01_Retail_Pricing_Profitability)
+* **İş Problemi:** Perakende sektöründe optimum fiyatlandırma stratejilerinin belirlenmesi ve kârlılık analizinin yapılması.
+* **Kullanılan Araçlar:** SQL, Power BI, DAX.
+* **Ana Çıktı:** Kâr marjı sızıntılarını tespit eden dinamik raporlama mimarisi.
 
-1. **Veri Hazırlığı ve SQL Server:** Excel'de tutulan dağınık ürün, maliyet, satış ve rakip verilerini SQL Server'a aktardım. 
-2. **SQL ile Matematiksel İşlemler:** `JOIN` kullanarak satış ve ürün tablolarını birleştirdim. Satış adedi, ciro ve maliyet üzerinden "Net Kâr" hesabını yapan SQL sorgusunu yazıp bunu bir View (Sanal Tablo) olarak kaydettim.
-3. **Power BI ve Veri Modelleme:** SQL'deki verimi Power BI'a çektim ve rakip fiyatlarının olduğu tablo ile kendi satış tablom arasındaki anahtar bağlantıları (Data Modeling) kurdum.
-4. **DAX ile Zarar Analizi:** `RELATED` fonksiyonunu kullanarak rakibin fiyatını kendi sistemime çektim. Ardından DAX formülleriyle "Eğer rakip fiyatından satsaydık ne kazanırdık?" matematiğini kurup **Kayıp Ciro** metriğini hesapladım.
+### [02. Dynamic Performance & Target Analytics](./02_Dynamic_Performance_Target_Analytics)
+* **İş Problemi:** Şirket kotalarından sapmaların (Target vs. Actual) ve geçen yıla göre büyüme daralmalarının (YoY) geç fark edilmesi.
+* **Kullanılan Araçlar:** SQL Server (Veritabanı Simülasyonu), Power BI (Star Schema), Advanced DAX (Time Intelligence).
+* **Ana Çıktı:** Zaman Zekası (Time Intelligence) fonksiyonlarıyla çalışan, sıfır gecikmeli (zero-latency) Yönetici Paneli (Executive Dashboard).
 
+---
+*Proje portföyü, pazarın gerçek iş problemlerine (ETL, Customer Segmentation, NLP) yönelik çözümlerle düzenli olarak güncellenmektedir.*
