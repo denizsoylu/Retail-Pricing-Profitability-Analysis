@@ -12,7 +12,8 @@ Projede, veri tabanının şişmesini engellemek ve raporlama hızını maksimum
 
 ![Star Schema Mimarisi](https://github.com/user-attachments/assets/a09453d0-7cc4-487a-9b94-71380dfe05a3)
 
-* **Fact Tables (İşlem Tabloları):** * `Fact_Gerceklesen_Satis` (Ciro, adet ve tarih bazlı satış hareketleri)
+* **Fact Tables (İşlem Tabloları):
+* ** * `Fact_Gerceklesen_Satis` (Ciro, adet ve tarih bazlı satış hareketleri)
     * `Fact_Aylik_Hedef` (Yıl ve ay bazlı kurumsal kotalar)
 * **Dimension Tables (Boyut/Filtre Tabloları):**
     * `Dim_Urun` (Tekil ürün kimlikleri ve kategoriler)
